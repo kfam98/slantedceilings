@@ -37,7 +37,7 @@ A static website done testing the capabilities of SASS and Bootstrap. The theme 
 
 ```
 
-#Credits
+# Credits
 
 Images for timeline
 https://icons8.com" Icon pack by Icons8
