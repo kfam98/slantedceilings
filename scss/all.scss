@@ -1,0 +1,59 @@
+// all.scss
+
+@import 'timeline';
+@import 'index';
+@import 'residents';
+
+
+html, body {
+  font-family: 'Shadows Into Light', cursive;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+nav {
+
+  ul {
+    flex-grow: 2;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  a {
+    font-size: 20px;
+    color: #979797;
+
+  }
+
+  a:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
+
+  .active {
+    color: #111;
+  }
+
+  img {
+    flex-grow: 1;
+  }
+
+}
+
+
+footer {
+  padding: 15px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .navbar-brand {
+    display: none;
+  }
+
+
+}
